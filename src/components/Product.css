@@ -1,0 +1,58 @@
+.Product {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+
+h4 {
+    height: 120px;
+}
+
+img {
+    width: 200px;
+    height: 250px;
+    margin-bottom: 70px;
+
+}
+
+p {
+    margin-top: 100px;
+    height: 110px;
+
+}
+
+strong {
+    display: block;
+    margin-top: 50px;
+    color: blue;
+}
+
+.ajout {
+    background: none;
+    padding: 13px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 35px;
+}
+
+.ajout:hover {
+    background-color: #333;
+}
+
+    
+
+.ajout[disabled] {
+        border: 1px solid black;
+        background-color: grey;
+        color: white;
+        padding: 13px;
+        cursor: not-allowed;
+    }
